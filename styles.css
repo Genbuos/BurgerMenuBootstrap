@@ -1,0 +1,41 @@
+
+/* Default styles for all screen sizes */
+
+/* Tablet styles (768px and below) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust font size or other styles for tablets */
+    }
+
+    .btn-light {
+        margin-left: 0; /* Adjust button margin for tablets */
+    }
+}
+
+/* Mobile styles (576px and below) */
+@media (max-width: 576px) {
+    body {
+        font-size: 12px; /* Adjust font size or other styles for mobile devices */
+
+    }
+
+    .btn-light {
+        margin-left: 0; /* Adjust button margin for mobile devices */
+    }
+
+
+    .container {
+        max-width: 100%;
+    }
+
+
+}
+
+/* Additional styles for smaller screens if needed */
+
+/* Larger screen styles (992px and above) */
+@media (min-width: 992px) {
+    body {
+        /* Add styles for larger screens if needed */
+    }
+}
